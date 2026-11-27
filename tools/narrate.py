@@ -14,9 +14,14 @@ VOICE = 'af_heart'
 def tts(text, speed):
     s, sr = K.create(text, voice=VOICE, speed=speed, lang='en-us')
     s = resample_poly(s, SR, sr)
-    # trim leading/trailing silence
-    idx = np.where(np.abs(s) > 0.01)[0]
-    return s[max(0, idx[0] - 200): idx[-1] + 800] if len(idx) else s
+    # trim on a 10 ms envelope with generous tail room so soft final consonants are not cut
+    env = np.convolve(np.abs(s), np.ones(SR // 100) / (SR // 100), 'same')
+    idx = np.where(env > 0.004)[0]
+    if len(idx) == 0: return s
+    s = s[max(0, idx[0] - int(0.03 * SR)): idx[-1] + int(0.22 * SR)]
+    fi, fo = int(0.015 * SR), int(0.07 * SR)
+    s[:fi] *= np.linspace(0, 1, fi); s[-fo:] *= np.linspace(1, 0, fo) ** 2
+    return s
 
 def whoosh(d=0.45):
     n = int(d * SR); t = np.arange(n) / SR
