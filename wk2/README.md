@@ -11,5 +11,6 @@ SOF-inspired kinetic style in Platsera branding. All pieces end on the standard 
 | li-integration-gap.png | LinkedIn promo | Image 1080x1350 | Your ERP and your WMS don't talk. |
 | li-ai-agents.png | LinkedIn promo | Image 1080x1350 | AI agents won't replace your team. They replace the copy and paste. |
 | li-human-api.mp4 | LinkedIn promo | Video 1080x1920, 18.7 s | Someone on your team is a human API. |
+| fb-retail-holiday-hours.png | Facebook | Image 1080x1350 | Open till 9 for the holidays? Google says 6 PM. |
 
 The phone number on the HVAC pieces is a fictional 555 number and "11 weeks ago" is illustrative. Music is synthesized, royalty free. Build scripts are in source/.
