@@ -56,8 +56,8 @@ print(post("BLACK FRIDAY", None, "FOR HVAC OWNERS", ["Furnaces work hard this we
      "Starter $149.50 · Local $299.50", None, DL, HV, O + "bf1-hvac-fri.png"))
 print(post("BLACK FRIDAY", "SMALL BUSINESS SATURDAY", "FOR RESTAURANT OWNERS", ["People pick a local spot today.", "Will they pick you?"],
      "Starter $149.50 · Local $299.50", "Then the founding rate, locked 12 months", DL, RS, O + "bf2-restaurant-sat.png"))
-print(post("BLACK FRIDAY", None, "FOR PLUMBERS", ["Holiday guests, busy pipes.", "Is your Google profile ready?"],
-     "Starter $149.50 · Local $299.50", None, DL, HV, O + "bf3-plumbers-sun.png"))
+print(post("BLACK FRIDAY", None, "FOR RETAIL AND SERVICE BUSINESSES", ["Holiday shoppers are searching.", "Will they find you open?"],
+     "Starter $149.50 · Local $299.50", None, DL, RS, O + "bf3-retail-service-sun.png"))
 print(post("BLACK FRIDAY", "LAST DAY · CYBER MONDAY", "FOR RESTAURANT OWNERS", ["Last day to lock in the deal."],
      "Starter $149.50 · Local $299.50", "Then the founding rate, locked 12 months", "Ends tonight, 11:59 PM CT", RS, O + "bf4-restaurant-mon.png"))
 print(post("BLACK FRIDAY", "LAST CALL", "RESTAURANTS AND SERVICE BUSINESSES", ["Ends tonight.", "We take on 6 new businesses a month."],
