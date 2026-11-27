@@ -1,6 +1,30 @@
 [
- {"id":"s1","lines":["When the heat goes out on a holiday weekend, the homeowner doesn't wait.","They search, and they choose fast."]},
- {"id":"s2","lines":["Seventy-five percent of people pick a local business in under thirty minutes.","If your profile looks quiet, the call goes to the next shop."]},
- {"id":"s3","lines":["So this Black Friday, we're making it easy to start.","Book a thirty minute marketing review. Sign up after it, and your first month is half off."]},
- {"id":"s4","lines":["The offer ends Monday, November thirtieth, at eleven fifty-nine p.m. Central.","The link is in the caption."]}
+ {
+  "id": "s1",
+  "lines": [
+   "When the heat goes out on a holiday weekend, the homeowner doesn't wait.",
+   "They search, and they choose fast."
+  ]
+ },
+ {
+  "id": "s2",
+  "lines": [
+   "Seventy-five percent of people pick a local business in under thirty minutes.",
+   "If your profile looks quiet, the call goes to the next shop."
+  ]
+ },
+ {
+  "id": "s3",
+  "lines": [
+   "So this Black Friday, we're making it easy to start.",
+   "Book a thirty minute marketing review. Sign up after it, and your first month is half off."
+  ]
+ },
+ {
+  "id": "s4",
+  "lines": [
+   "The offer ends Monday night, November thirtieth, at eleven fifty-nine, Central time.",
+   "The link is in the caption."
+  ]
+ }
 ]
